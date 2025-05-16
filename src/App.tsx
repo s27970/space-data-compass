@@ -9,6 +9,7 @@ import Map from "./pages/Map";
 import Community from "./pages/Community";
 import RealEstate from "./pages/RealEstate";
 import SignUp from "./pages/SignUp";
+import Login from "./pages/Login";
 import Calculator from "./pages/Calculator";
 import NotFound from "./pages/NotFound";
 
@@ -26,6 +27,7 @@ const App = () => (
           <Route path="/community" element={<Community />} />
           <Route path="/realestate" element={<RealEstate />} />
           <Route path="/signup" element={<SignUp />} />
+          <Route path="/login" element={<Login />} />
           <Route path="/calculator" element={<Calculator />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
